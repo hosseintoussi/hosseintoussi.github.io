@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Lightbulb story!"
+date:   2016-01-21 12:47:41
+categories: others
+---
+Once upon a time there was an electrician, and this electrician was a good electrician, and had many customers. He provided a huge range of services, including providing lightbulbs.
+
+One day, one of his customers came to him and asked him for a lightbulb. This surprised the electrician, because he had only finished fitting out this customers house the other day. But knowing that lightbulbs often break without reason, he happily provided this customer with a new lightbulb, and because he was dedicated to providing legendary customer service, threw in a second for free. "There", he thought to himself, "They won't need a lightbulb again for a least a month!". The customer was greatly pleased with his electrician.
+
+Day turned to night and night turned to day, and waiting at the Electricians store the next morning was the very same customer, requesting additional lightbulbs. This truly perplexed our noble electrician, as he knew that while lightbulbs did break, no one could be _that_ unlucky. The electrician handed the customer a replacement pack of lightbulbs and then asked if he could do some 'on-site testing', to see what it was about this customer's house that was causing the lightbulbs to break so quickly. So he followed the customer out to his house and walked into the foyer. He gasped, as he saw numberous bulletholes puncturing the ceiling of the his customers house. Shocked, he asked the customer "What happened? Is everything ok?!"
+The customer shot him a perplexed look, "What do you mean?" he said. The electrician, lost for words, could only point to the ceiling. "Oh, I was actually meaning to ask you about that. The lightbulbs you're selling me are great, but they're a little small so I keep missing. Do you know any good firearms shops around that could sell me a more accurate gun?" The electrician promptly took his customer over to the wall, and detailed the operation of the light switch to this customer, who was appropriately blown away, and promised livelong gratitude and business to this electrician. Everyone lived happily ever after and there were no more holes in the ceiling.

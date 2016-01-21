@@ -1,0 +1,18 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               HosseinToussi
+tagline:             'A simple blog'
+url:                 http://hosseintoussi.github.io
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              Hossein Toussi
+  url:               bitbucket.org/hosseintoussi
+  email:             saeed.toussi@yahoo.com
