@@ -8,7 +8,7 @@ relative_permalinks: true
 title:               HosseinToussi
 tagline:             'A simple blog'
 url:                 http://hosseintoussi.github.io
-baseurl:             'http://hosseintoussi.github.io/'
+baseurl:             ''
 paginate:            5
 
 # About/contact
