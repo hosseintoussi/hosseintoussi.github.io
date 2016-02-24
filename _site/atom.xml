@@ -4,13 +4,68 @@
  <title>HosseinToussi</title>
  <link href="http://hosseintoussi.github.io/atom.xml" rel="self"/>
  <link href="http://hosseintoussi.github.io/"/>
- <updated>2016-01-21T13:36:09+08:00</updated>
+ <updated>2016-02-24T14:57:47+08:00</updated>
  <id>http://hosseintoussi.github.io</id>
  <author>
    <name>Hossein Toussi</name>
    <email>saeed.toussi@yahoo.com</email>
  </author>
 
+ 
+ <entry>
+   <title>My Sublime Packages</title>
+   <link href="http://hosseintoussi.github.io/dev-env/2016/02/24/My-sublime-packages/"/>
+   <updated>2016-02-24T09:57:41+08:00</updated>
+   <id>http://hosseintoussi.github.io/dev-env/2016/02/24/My-sublime-packages</id>
+   <content type="html">&lt;h2 id=&quot;gitgutter&quot;&gt;GitGutter&lt;/h2&gt;
+&lt;p&gt;A plugin to show an icon in the gutter area indicating whether a line has been inserted, modified or deleted.
+&lt;a href=&quot;https://github.com/jisaacks/GitGutter&quot;&gt;Github repo&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;gitsavvy&quot;&gt;GitSavvy&lt;/h2&gt;
+&lt;p&gt;A sublime text 3 plugin to provide basic git functionalities like: &lt;code&gt;init&lt;/code&gt;, &lt;code&gt;add&lt;/code&gt;, &lt;code&gt;commit&lt;/code&gt;, &lt;code&gt;checkout&lt;/code&gt;, &lt;code&gt;pull&lt;/code&gt;, &lt;code&gt;push&lt;/code&gt;.
+&lt;a href=&quot;https://github.com/divmain/GitSavvy&quot;&gt;Github repo&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;emmet&quot;&gt;Emmet&lt;/h2&gt;
+&lt;p&gt;It adds HTML, CSS shortcuts. With it’s abbreviations you can quickly generate blocks.
+&lt;a href=&quot;https://github.com/sergeche/emmet-sublime&quot;&gt;Github repo&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;#page&amp;gt;div.logo+ul#navigation&amp;gt;li*5&amp;gt;a{Item $}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;with a &lt;code&gt;tab&lt;/code&gt; it becomes:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;page&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;logo&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;navigation&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Item 1&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Item 2&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Item 3&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Item 4&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Item 5&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/code&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/pre&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;origami&quot;&gt;Origami&lt;/h2&gt;
+&lt;p&gt;A nice way of dealing with panes as you need them.
+&lt;a href=&quot;https://github.com/SublimeText/Origami&quot;&gt;Github repo&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;sidebarenhancements&quot;&gt;SideBarEnhancements&lt;/h2&gt;
+&lt;p&gt;Enhances the operations on Sidebar of Files and Folders.
+&lt;a href=&quot;https://github.com/titoBouzout/SideBarEnhancements&quot;&gt;Github repo&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;material-theme&quot;&gt;Material Theme&lt;/h2&gt;
+&lt;p&gt;The most epic theme for Sublime Text 3!
+&lt;a href=&quot;https://github.com/equinusocio/material-theme&quot;&gt;Github repo&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;beautifyruby&quot;&gt;BeautifyRuby&lt;/h2&gt;
+&lt;p&gt;Reformats/Reindentes your ruby codes.
+&lt;a href=&quot;https://github.com/CraigWilliams/BeautifyRuby&quot;&gt;Github repo&lt;/a&gt;&lt;/p&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Lightbulb story!</title>
