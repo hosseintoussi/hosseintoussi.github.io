@@ -93,21 +93,23 @@
   <div class="post">
     <h1 class="post-title">
       <a href="http://hosseintoussi.github.io/dev-env/2016/02/24/My-sublime-packages.html">
-        My Sublime Text Editor Packages
+        My Sublime Text Editor Packages and Customisations
       </a>
     </h1>
 
     <span class="post-date">24 Feb 2016</span>
 
-    <h2 id="gitgutter">GitGutter</h2>
+    <h2 id="packages"><strong>Packages</strong></h2>
+
+<h3 id="gitgutter">GitGutter</h3>
 <p>A plugin to show an icon in the gutter area indicating whether a line has been inserted, modified or deleted.
 <a href="https://github.com/jisaacks/GitGutter">Github repo</a></p>
 
-<h2 id="gitsavvy">GitSavvy</h2>
+<h3 id="gitsavvy">GitSavvy</h3>
 <p>A sublime text 3 plugin to provide basic git functionalities like: <code>init</code>, <code>add</code>, <code>commit</code>, <code>checkout</code>, <code>pull</code>, <code>push</code>.
 <a href="https://github.com/divmain/GitSavvy">Github repo</a></p>
 
-<h2 id="emmet">Emmet</h2>
+<h3 id="emmet">Emmet</h3>
 <p>It adds HTML, CSS shortcuts. With it’s abbreviations you can quickly generate blocks.
 <a href="https://github.com/sergeche/emmet-sublime">Github repo</a></p>
 
@@ -130,25 +132,53 @@
 <span class="nt">&lt;/code&gt;</span>
 <span class="nt">&lt;/pre&gt;</span></code></pre></div>
 
-<h2 id="origami">Origami</h2>
+<h3 id="origami">Origami</h3>
 <p>A nice way of dealing with panes as you need them.
 <a href="https://github.com/SublimeText/Origami">Github repo</a></p>
 
-<h2 id="sidebarenhancements">SideBarEnhancements</h2>
+<h3 id="sidebarenhancements">SideBarEnhancements</h3>
 <p>Enhances the operations on Sidebar of Files and Folders.
 <a href="https://github.com/titoBouzout/SideBarEnhancements">Github repo</a></p>
 
-<h2 id="material-theme">Material Theme</h2>
+<h3 id="material-theme">Material Theme</h3>
 <p>The most epic theme for Sublime Text 3!
 <a href="https://github.com/equinusocio/material-theme">Github repo</a></p>
 
-<h2 id="beautifyruby">BeautifyRuby</h2>
+<h3 id="beautifyruby">BeautifyRuby</h3>
 <p>Reformats/Reindentes your ruby codes.
 <a href="https://github.com/CraigWilliams/BeautifyRuby">Github repo</a></p>
 
-<h2 id="sublime-rubocop">Sublime Rubocop</h2>
+<h3 id="sublime-rubocop">Sublime Rubocop</h3>
 <p>It runs <a href="https://github.com/bbatsov/rubocop">Rubocop</a> on your Ruby files in the Editor.
 <a href="https://github.com/pderichs/sublime_rubocop">Github repo</a></p>
+
+<h2 id="other-customisations"><strong>Other customisations</strong></h2>
+
+<h3 id="key-bindings">Key Bindings</h3>
+<p>I have two key bindings:</p>
+
+<ul>
+  <li>Toggle SideBar using <code>Command+\</code>.</li>
+  <li>Toggle Minimap using <code>Command+shift+\</code>.</li>
+</ul>
+
+<div class="highlight"><pre><code class="language-json" data-lang="json"><span class="p">[</span>
+	<span class="p">{</span> <span class="nt">&quot;keys&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;super+\\&quot;</span><span class="p">],</span> <span class="nt">&quot;command&quot;</span><span class="p">:</span> <span class="s2">&quot;toggle_side_bar&quot;</span> <span class="p">},</span>
+	<span class="p">{</span> <span class="nt">&quot;keys&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;super+shift+\\&quot;</span><span class="p">],</span> <span class="nt">&quot;command&quot;</span><span class="p">:</span> <span class="s2">&quot;toggle_minimap&quot;</span> <span class="p">}</span>
+<span class="p">]</span></code></pre></div>
+
+<h3 id="user-settings">User Settings</h3>
+<p>Two settings worth mentioning:</p>
+
+<ul>
+  <li>Trim trailing white spaces on save.</li>
+  <li>Changing tab size to two spaces.</li>
+</ul>
+
+<div class="highlight"><pre><code class="language-json" data-lang="json"><span class="p">[</span>
+	<span class="s2">&quot;trim_trailing_white_space_on_save&quot;</span><span class="err">:</span> <span class="kc">true</span><span class="p">,</span>
+	<span class="s2">&quot;tab_size&quot;</span><span class="err">:</span> <span class="mi">2</span>
+<span class="p">]</span></code></pre></div>
 
 
   </div>

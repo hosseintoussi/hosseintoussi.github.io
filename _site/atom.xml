@@ -4,7 +4,7 @@
  <title>HosseinToussi</title>
  <link href="http://hosseintoussi.github.io/atom.xml" rel="self"/>
  <link href="http://hosseintoussi.github.io/"/>
- <updated>2016-02-24T15:19:22+08:00</updated>
+ <updated>2016-02-24T16:19:14+08:00</updated>
  <id>http://hosseintoussi.github.io</id>
  <author>
    <name>Hossein Toussi</name>
@@ -13,19 +13,21 @@
 
  
  <entry>
-   <title>My Sublime Text Editor Packages</title>
+   <title>My Sublime Text Editor Packages and Customisations</title>
    <link href="http://hosseintoussi.github.io/dev-env/2016/02/24/My-sublime-packages.html"/>
    <updated>2016-02-24T09:57:41+08:00</updated>
    <id>http://hosseintoussi.github.io/dev-env/2016/02/24/My-sublime-packages</id>
-   <content type="html">&lt;h2 id=&quot;gitgutter&quot;&gt;GitGutter&lt;/h2&gt;
+   <content type="html">&lt;h2 id=&quot;packages&quot;&gt;&lt;strong&gt;Packages&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;h3 id=&quot;gitgutter&quot;&gt;GitGutter&lt;/h3&gt;
 &lt;p&gt;A plugin to show an icon in the gutter area indicating whether a line has been inserted, modified or deleted.
 &lt;a href=&quot;https://github.com/jisaacks/GitGutter&quot;&gt;Github repo&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;gitsavvy&quot;&gt;GitSavvy&lt;/h2&gt;
+&lt;h3 id=&quot;gitsavvy&quot;&gt;GitSavvy&lt;/h3&gt;
 &lt;p&gt;A sublime text 3 plugin to provide basic git functionalities like: &lt;code&gt;init&lt;/code&gt;, &lt;code&gt;add&lt;/code&gt;, &lt;code&gt;commit&lt;/code&gt;, &lt;code&gt;checkout&lt;/code&gt;, &lt;code&gt;pull&lt;/code&gt;, &lt;code&gt;push&lt;/code&gt;.
 &lt;a href=&quot;https://github.com/divmain/GitSavvy&quot;&gt;Github repo&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;emmet&quot;&gt;Emmet&lt;/h2&gt;
+&lt;h3 id=&quot;emmet&quot;&gt;Emmet&lt;/h3&gt;
 &lt;p&gt;It adds HTML, CSS shortcuts. With it’s abbreviations you can quickly generate blocks.
 &lt;a href=&quot;https://github.com/sergeche/emmet-sublime&quot;&gt;Github repo&lt;/a&gt;&lt;/p&gt;
 
@@ -48,25 +50,53 @@
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/code&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/pre&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;h2 id=&quot;origami&quot;&gt;Origami&lt;/h2&gt;
+&lt;h3 id=&quot;origami&quot;&gt;Origami&lt;/h3&gt;
 &lt;p&gt;A nice way of dealing with panes as you need them.
 &lt;a href=&quot;https://github.com/SublimeText/Origami&quot;&gt;Github repo&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;sidebarenhancements&quot;&gt;SideBarEnhancements&lt;/h2&gt;
+&lt;h3 id=&quot;sidebarenhancements&quot;&gt;SideBarEnhancements&lt;/h3&gt;
 &lt;p&gt;Enhances the operations on Sidebar of Files and Folders.
 &lt;a href=&quot;https://github.com/titoBouzout/SideBarEnhancements&quot;&gt;Github repo&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;material-theme&quot;&gt;Material Theme&lt;/h2&gt;
+&lt;h3 id=&quot;material-theme&quot;&gt;Material Theme&lt;/h3&gt;
 &lt;p&gt;The most epic theme for Sublime Text 3!
 &lt;a href=&quot;https://github.com/equinusocio/material-theme&quot;&gt;Github repo&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;beautifyruby&quot;&gt;BeautifyRuby&lt;/h2&gt;
+&lt;h3 id=&quot;beautifyruby&quot;&gt;BeautifyRuby&lt;/h3&gt;
 &lt;p&gt;Reformats/Reindentes your ruby codes.
 &lt;a href=&quot;https://github.com/CraigWilliams/BeautifyRuby&quot;&gt;Github repo&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;sublime-rubocop&quot;&gt;Sublime Rubocop&lt;/h2&gt;
+&lt;h3 id=&quot;sublime-rubocop&quot;&gt;Sublime Rubocop&lt;/h3&gt;
 &lt;p&gt;It runs &lt;a href=&quot;https://github.com/bbatsov/rubocop&quot;&gt;Rubocop&lt;/a&gt; on your Ruby files in the Editor.
 &lt;a href=&quot;https://github.com/pderichs/sublime_rubocop&quot;&gt;Github repo&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;other-customisations&quot;&gt;&lt;strong&gt;Other customisations&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;h3 id=&quot;key-bindings&quot;&gt;Key Bindings&lt;/h3&gt;
+&lt;p&gt;I have two key bindings:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Toggle SideBar using &lt;code&gt;Command+\&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Toggle Minimap using &lt;code&gt;Command+shift+\&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-json&quot; data-lang=&quot;json&quot;&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;quot;keys&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;super+\\&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;quot;command&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;toggle_side_bar&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;quot;keys&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;super+shift+\\&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;quot;command&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;toggle_minimap&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;user-settings&quot;&gt;User Settings&lt;/h3&gt;
+&lt;p&gt;Two settings worth mentioning:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Trim trailing white spaces on save.&lt;/li&gt;
+  &lt;li&gt;Changing tab size to two spaces.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-json&quot; data-lang=&quot;json&quot;&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
+	&lt;span class=&quot;s2&quot;&gt;&amp;quot;trim_trailing_white_space_on_save&amp;quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+	&lt;span class=&quot;s2&quot;&gt;&amp;quot;tab_size&amp;quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 </content>
  </entry>
