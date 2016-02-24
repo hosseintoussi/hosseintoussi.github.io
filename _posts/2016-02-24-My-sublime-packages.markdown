@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "My Sublime Packages"
+title:  "My Sublime Text Editor Packages"
 date:   2016-02-24 1:57:41
 categories: dev-env
 ---
@@ -54,6 +54,11 @@ The most epic theme for Sublime Text 3!
 ## BeautifyRuby
 Reformats/Reindentes your ruby codes.
 [Github repo](https://github.com/CraigWilliams/BeautifyRuby)
+
+## Sublime Rubocop
+It runs [Rubocop](https://github.com/bbatsov/rubocop) on your Ruby files in the Editor.
+[Github repo](https://github.com/pderichs/sublime_rubocop)
+
 
 
 

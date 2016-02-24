@@ -4,7 +4,7 @@
  <title>HosseinToussi</title>
  <link href="http://hosseintoussi.github.io/atom.xml" rel="self"/>
  <link href="http://hosseintoussi.github.io/"/>
- <updated>2016-02-24T15:10:23+08:00</updated>
+ <updated>2016-02-24T15:19:22+08:00</updated>
  <id>http://hosseintoussi.github.io</id>
  <author>
    <name>Hossein Toussi</name>
@@ -13,7 +13,7 @@
 
  
  <entry>
-   <title>My Sublime Packages</title>
+   <title>My Sublime Text Editor Packages</title>
    <link href="http://hosseintoussi.github.io/dev-env/2016/02/24/My-sublime-packages.html"/>
    <updated>2016-02-24T09:57:41+08:00</updated>
    <id>http://hosseintoussi.github.io/dev-env/2016/02/24/My-sublime-packages</id>
@@ -63,6 +63,10 @@
 &lt;h2 id=&quot;beautifyruby&quot;&gt;BeautifyRuby&lt;/h2&gt;
 &lt;p&gt;Reformats/Reindentes your ruby codes.
 &lt;a href=&quot;https://github.com/CraigWilliams/BeautifyRuby&quot;&gt;Github repo&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;sublime-rubocop&quot;&gt;Sublime Rubocop&lt;/h2&gt;
+&lt;p&gt;It runs &lt;a href=&quot;https://github.com/bbatsov/rubocop&quot;&gt;Rubocop&lt;/a&gt; on your Ruby files in the Editor.
+&lt;a href=&quot;https://github.com/pderichs/sublime_rubocop&quot;&gt;Github repo&lt;/a&gt;&lt;/p&gt;
 
 </content>
  </entry>
