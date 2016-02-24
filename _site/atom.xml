@@ -4,7 +4,7 @@
  <title>HosseinToussi</title>
  <link href="http://hosseintoussi.github.io/atom.xml" rel="self"/>
  <link href="http://hosseintoussi.github.io/"/>
- <updated>2016-02-24T14:57:47+08:00</updated>
+ <updated>2016-02-24T15:10:23+08:00</updated>
  <id>http://hosseintoussi.github.io</id>
  <author>
    <name>Hossein Toussi</name>
@@ -14,7 +14,7 @@
  
  <entry>
    <title>My Sublime Packages</title>
-   <link href="http://hosseintoussi.github.io/dev-env/2016/02/24/My-sublime-packages/"/>
+   <link href="http://hosseintoussi.github.io/dev-env/2016/02/24/My-sublime-packages.html"/>
    <updated>2016-02-24T09:57:41+08:00</updated>
    <id>http://hosseintoussi.github.io/dev-env/2016/02/24/My-sublime-packages</id>
    <content type="html">&lt;h2 id=&quot;gitgutter&quot;&gt;GitGutter&lt;/h2&gt;
@@ -69,7 +69,7 @@
  
  <entry>
    <title>Lightbulb story!</title>
-   <link href="http://hosseintoussi.github.io/others/2016/01/21/My-first-post-to-jekyll/"/>
+   <link href="http://hosseintoussi.github.io/others/2016/01/21/My-first-post-to-jekyll.html"/>
    <updated>2016-01-21T20:47:41+08:00</updated>
    <id>http://hosseintoussi.github.io/others/2016/01/21/My-first-post-to-jekyll</id>
    <content type="html">&lt;p&gt;Once upon a time there was an electrician, and this electrician was a good electrician, and had many customers. He provided a huge range of services, including providing lightbulbs.&lt;/p&gt;
