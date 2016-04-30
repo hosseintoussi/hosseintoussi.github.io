@@ -5,7 +5,7 @@ date:   2016-04-29 19:47:41
 categories: others
 ---
 ### Analyze and Understand the Problem
-This is a very important step to resolving any problems. I often see people skipping this step by jump right into conclusions, and get caught in a loop with wild guesses.
+This is a very important step to resolving any problems. I often see people skipping this step by jumping right into conclusions, and get caught in a loop with wild guesses.
 
 As the title speaks for itself you need to ANALYZE and UNDERSTAND the problem.
 
@@ -21,7 +21,7 @@ A clear description of the problem.
 Understand how can the problem occur, and list down what could be wrong. Ask others who also know about the problem (Communicate!).
 
 ### collecting information on the problem
-It's time for some discovery! In this step you should be searching, reproducing the problem, and gathering as much information as you can. The more information you have the easier you can identify the root cause of the issue.
+It's time for some discovery! In this step you should be searching, reproducing the problem, and gathering as much information as you can. The more information you have the easier you can identify the root cause.
 
 #### _Search:_
 If its a known problem, try googling the symptoms or the error (if there is any), see if you can find anything that might help you with the issue. If it's an application you are troubleshooting, start by looking into the logs. Basically use all the channels you can to collect information.
@@ -30,7 +30,7 @@ If its a known problem, try googling the symptoms or the error (if there is any)
 Try it yourself, see how is it that you get the problem. Pay good attention to details. Try to map your search findings to what you are experiencing and take note.
 
 ### Getting to the root cause:
-As you collect enough information you should move forward and try to locate the problem. There are three steps you can follow to narrow down the problem and get to the root cause.
+As you collect enough information you should move forward and try to locate the root cause. here are three steps that can help you narrow down the problem.
 
 #### _Possible causes:_
 Based on the information you've gathered you can list down what you think could be causing the problem.
@@ -42,11 +42,11 @@ Question what's happening.
 - Any environment changes?
 - If there are changes, how could they cause the problem?
 
-You might end up with a big list of possible causes. You can *devide and conquer*.
+You might end up with a big list of possible causes. You can *divide and conquer*.
 
-_Divide the problem into a few separate parts, and examine one by one:_
+_Divide the problem into a few separate parts, and examine them one by one:_
 
-you divide the problems into subproblems, and test each side separately to locate the side with the problem.
+you divide the problem into subproblems, and test each side separately to locate the side with the problem.
 
 ![Divide and conquer](https://s3.amazonaws.com/ka-cs-algorithms/divide_conquer_1_step.png "Divide and conquer")
 
@@ -75,9 +75,9 @@ As you identify the culprit, you should go on and make a change to fix that. But
 - Has the fix been successful?
 - Do the symptoms still appear?
 
-You will have to repeat the steps above if problem still persists or your changes introduce new problems. It's good to refer back to your step on identifying the problem. Refer to the diagrams you drew, or your note and check if you missed any thing. This time you have more information, and you already know what you tried did not resolve the problem so you can cross something off your list of possible causes.
+You will have to repeat the steps above if problem still persists or your changes introduce new problems. It's good to refer back to your step on identifying the problem. Refer to the diagrams you drew, or your note and check if you missed any thing. This time you have more information, and you already know what you tried did not solve the problem so you can cross something off your list of possible causes.
 
 ### Go further:
 
-As you get the issue solved, don't just stop there! Think about how you can imporve the app, process, or whatever it is you were fixed. _"Leave it a little better than you found it."_
+When you get the issue solved, don't just stop there! Think about how you can imporve the app, process, or whatever it is you were fixed. _"Leave it a little better than you found it."_
 
