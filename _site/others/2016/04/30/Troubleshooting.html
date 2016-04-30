@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Troubleshooting &middot; HosseinToussi
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/lanyon.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p></p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="/">Home</a>
+
+    
+
+    
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/about.html">About</a>
+        
+      
+    
+      
+    
+      
+        
+      
+    
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; 2016. All rights reserved.
+    </p>
+  </div>
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="http://hosseintoussi.github.io/" title="Home">HosseinToussi</a>
+            <small>A simple blog</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="post">
+  <h1 class="post-title">Troubleshooting</h1>
+  <span class="post-date">30 Apr 2016</span>
+  <h3 id="analyze-and-understand-the-problem">Analyze and Understand the Problem</h3>
+<p>This is a very important step to resolving any problems. I often see people skipping this step by jump right into conclusions, and get caught in a loop with wild guesses.</p>
+
+<p>As the title speaks for itself you need to ANALYZE and UNDERSTAND the problem.</p>
+
+<h4 id="analyze"><em>Analyze:</em></h4>
+<p>A clear description of the problem.</p>
+
+<ul>
+  <li>What it is? What is it NOT? What things do have the problem?</li>
+  <li>Where is it? Where is it NOT?</li>
+  <li>When is it occurring? When is it NOT?</li>
+  <li>What is the impact on the business?</li>
+</ul>
+
+<h4 id="understand"><em>Understand:</em></h4>
+<p>Understand how can the problem occur, and list down what could be wrong. Ask others who also know about the problem (Communicate!).</p>
+
+<h3 id="collecting-information-on-the-problem">collecting information on the problem</h3>
+<p>It’s time for some discovery! In this step you should be searching, reproducing the problem, and gathering as much information as you can. The more information you have the easier you can identify the root cause of the issue.</p>
+
+<h4 id="search"><em>Search:</em></h4>
+<p>If its a known problem, try googling the symptoms or the error (if there is any), see if you can find anything that might help you with the issue. If it’s an application you are troubleshooting, start by looking into the logs. Basically use all the channels you can to collect information.</p>
+
+<h4 id="reproduce-the-problem"><em>Reproduce the problem:</em></h4>
+<p>Try it yourself, see how is it that you get the problem. Pay good attention to details. Try to map your search findings to what you are experiencing and take note.</p>
+
+<h3 id="getting-to-the-root-cause">Getting to the root cause:</h3>
+<p>As you collect enough information you should move forward and try to locate the problem. There are three steps you can follow to narrow down the problem and get to the root cause.</p>
+
+<h4 id="possible-causes"><em>Possible causes:</em></h4>
+<p>Based on the information you’ve gathered you can list down what you think could be causing the problem.</p>
+
+<p>Question what’s happening.</p>
+
+<ul>
+  <li>What’s the differences between the places where the problem is and is not happening?</li>
+  <li>Any recent deployments?</li>
+  <li>Any environment changes?</li>
+  <li>If there are changes, how could they cause the problem?</li>
+</ul>
+
+<p>You might end up with a big list of possible causes. You can <em>devide and conquer</em>.</p>
+
+<p><em>Divide the problem into a few separate parts, and examine one by one:</em></p>
+
+<p>you divide the problems into subproblems, and test each side separately to locate the side with the problem.</p>
+
+<p><img src="https://s3.amazonaws.com/ka-cs-algorithms/divide_conquer_1_step.png" alt="Divide and conquer" title="Divide and conquer" /></p>
+
+<p><em>You can use fishbone diagrams too. This specially works well when you are doing cause and effect analysis:</em></p>
+
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Ishikawa_Fishbone_Diagram.svg/2000px-Ishikawa_Fishbone_Diagram.svg.png" alt="fishbone diagram" title="fishbone diagram" /></p>
+
+<p>Repeat until you isolate the problem. There may be times where you feel you need more information and in my opinion that is fine and it happens. Just go back a step and get more information.</p>
+
+<h4 id="analyze-your-findings"><em>Analyze your findings:</em></h4>
+
+<p>Some questions to ask yourself here:</p>
+
+<ul>
+  <li>How do these causes explain why the problem is happening?</li>
+  <li>What are the assumptions?</li>
+</ul>
+
+<p>If you have a few causes here think about which one is the most probable.</p>
+
+<h4 id="confirm-the-cause"><em>Confirm the cause:</em></h4>
+<p>Get some additional information to confirm the root cause. Try to get your causes proven/checked. See if it’s possible to isolate the causes and confirming them.</p>
+
+<h3 id="trying-fixes">Trying fixes:</h3>
+
+<p>As you identify the culprit, you should go on and make a change to fix that. But, don’t just make changes and forget about it! You will need to continue and monitor the situation. Some questions to keep in mind:</p>
+
+<ul>
+  <li>Has the fix been successful?</li>
+  <li>Do the symptoms still appear?</li>
+</ul>
+
+<p>You will have to repeat the steps above if problem still persists or your changes introduce new problems. It’s good to refer back to your step on identifying the problem. Refer to the diagrams you drew, or your note and check if you missed any thing. This time you have more information, and you already know what you tried did not resolve the problem so you can cross something off your list of possible causes.</p>
+
+<h3 id="go-further">Go further:</h3>
+
+<p>As you get the issue solved, don’t just stop there! Think about how you can imporve the app, process, or whatever it is you were fixed. <em>“Leave it a little better than you found it.”</em></p>
+
+
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="http://hosseintoussi.github.io/dev-env/2016/02/24/My-sublime-packages.html">
+            My Sublime Text Editor Packages and Customisations
+            <small>24 Feb 2016</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="http://hosseintoussi.github.io/others/2016/01/21/My-first-post-to-jekyll.html">
+            Lightbulb story!
+            <small>21 Jan 2016</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+  </body>
+</html>

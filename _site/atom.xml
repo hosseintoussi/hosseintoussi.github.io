@@ -4,13 +4,106 @@
  <title>HosseinToussi</title>
  <link href="http://hosseintoussi.github.io/atom.xml" rel="self"/>
  <link href="http://hosseintoussi.github.io/"/>
- <updated>2016-02-24T16:19:14+08:00</updated>
+ <updated>2016-04-30T20:00:25+08:00</updated>
  <id>http://hosseintoussi.github.io</id>
  <author>
    <name>Hossein Toussi</name>
    <email>saeed.toussi@yahoo.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Troubleshooting</title>
+   <link href="http://hosseintoussi.github.io/others/2016/04/30/Troubleshooting.html"/>
+   <updated>2016-04-30T03:47:41+08:00</updated>
+   <id>http://hosseintoussi.github.io/others/2016/04/30/Troubleshooting</id>
+   <content type="html">&lt;h3 id=&quot;analyze-and-understand-the-problem&quot;&gt;Analyze and Understand the Problem&lt;/h3&gt;
+&lt;p&gt;This is a very important step to resolving any problems. I often see people skipping this step by jump right into conclusions, and get caught in a loop with wild guesses.&lt;/p&gt;
+
+&lt;p&gt;As the title speaks for itself you need to ANALYZE and UNDERSTAND the problem.&lt;/p&gt;
+
+&lt;h4 id=&quot;analyze&quot;&gt;&lt;em&gt;Analyze:&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;A clear description of the problem.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What it is? What is it NOT? What things do have the problem?&lt;/li&gt;
+  &lt;li&gt;Where is it? Where is it NOT?&lt;/li&gt;
+  &lt;li&gt;When is it occurring? When is it NOT?&lt;/li&gt;
+  &lt;li&gt;What is the impact on the business?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;understand&quot;&gt;&lt;em&gt;Understand:&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;Understand how can the problem occur, and list down what could be wrong. Ask others who also know about the problem (Communicate!).&lt;/p&gt;
+
+&lt;h3 id=&quot;collecting-information-on-the-problem&quot;&gt;collecting information on the problem&lt;/h3&gt;
+&lt;p&gt;It’s time for some discovery! In this step you should be searching, reproducing the problem, and gathering as much information as you can. The more information you have the easier you can identify the root cause of the issue.&lt;/p&gt;
+
+&lt;h4 id=&quot;search&quot;&gt;&lt;em&gt;Search:&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;If its a known problem, try googling the symptoms or the error (if there is any), see if you can find anything that might help you with the issue. If it’s an application you are troubleshooting, start by looking into the logs. Basically use all the channels you can to collect information.&lt;/p&gt;
+
+&lt;h4 id=&quot;reproduce-the-problem&quot;&gt;&lt;em&gt;Reproduce the problem:&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;Try it yourself, see how is it that you get the problem. Pay good attention to details. Try to map your search findings to what you are experiencing and take note.&lt;/p&gt;
+
+&lt;h3 id=&quot;getting-to-the-root-cause&quot;&gt;Getting to the root cause:&lt;/h3&gt;
+&lt;p&gt;As you collect enough information you should move forward and try to locate the problem. There are three steps you can follow to narrow down the problem and get to the root cause.&lt;/p&gt;
+
+&lt;h4 id=&quot;possible-causes&quot;&gt;&lt;em&gt;Possible causes:&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;Based on the information you’ve gathered you can list down what you think could be causing the problem.&lt;/p&gt;
+
+&lt;p&gt;Question what’s happening.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What’s the differences between the places where the problem is and is not happening?&lt;/li&gt;
+  &lt;li&gt;Any recent deployments?&lt;/li&gt;
+  &lt;li&gt;Any environment changes?&lt;/li&gt;
+  &lt;li&gt;If there are changes, how could they cause the problem?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You might end up with a big list of possible causes. You can &lt;em&gt;devide and conquer&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Divide the problem into a few separate parts, and examine one by one:&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;you divide the problems into subproblems, and test each side separately to locate the side with the problem.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://s3.amazonaws.com/ka-cs-algorithms/divide_conquer_1_step.png&quot; alt=&quot;Divide and conquer&quot; title=&quot;Divide and conquer&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;You can use fishbone diagrams too. This specially works well when you are doing cause and effect analysis:&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Ishikawa_Fishbone_Diagram.svg/2000px-Ishikawa_Fishbone_Diagram.svg.png&quot; alt=&quot;fishbone diagram&quot; title=&quot;fishbone diagram&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Repeat until you isolate the problem. There may be times where you feel you need more information and in my opinion that is fine and it happens. Just go back a step and get more information.&lt;/p&gt;
+
+&lt;h4 id=&quot;analyze-your-findings&quot;&gt;&lt;em&gt;Analyze your findings:&lt;/em&gt;&lt;/h4&gt;
+
+&lt;p&gt;Some questions to ask yourself here:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;How do these causes explain why the problem is happening?&lt;/li&gt;
+  &lt;li&gt;What are the assumptions?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you have a few causes here think about which one is the most probable.&lt;/p&gt;
+
+&lt;h4 id=&quot;confirm-the-cause&quot;&gt;&lt;em&gt;Confirm the cause:&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;Get some additional information to confirm the root cause. Try to get your causes proven/checked. See if it’s possible to isolate the causes and confirming them.&lt;/p&gt;
+
+&lt;h3 id=&quot;trying-fixes&quot;&gt;Trying fixes:&lt;/h3&gt;
+
+&lt;p&gt;As you identify the culprit, you should go on and make a change to fix that. But, don’t just make changes and forget about it! You will need to continue and monitor the situation. Some questions to keep in mind:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Has the fix been successful?&lt;/li&gt;
+  &lt;li&gt;Do the symptoms still appear?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You will have to repeat the steps above if problem still persists or your changes introduce new problems. It’s good to refer back to your step on identifying the problem. Refer to the diagrams you drew, or your note and check if you missed any thing. This time you have more information, and you already know what you tried did not resolve the problem so you can cross something off your list of possible causes.&lt;/p&gt;
+
+&lt;h3 id=&quot;go-further&quot;&gt;Go further:&lt;/h3&gt;
+
+&lt;p&gt;As you get the issue solved, don’t just stop there! Think about how you can imporve the app, process, or whatever it is you were fixed. &lt;em&gt;“Leave it a little better than you found it.”&lt;/em&gt;&lt;/p&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>My Sublime Text Editor Packages and Customisations</title>
