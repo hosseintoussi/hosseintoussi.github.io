@@ -15,6 +15,6 @@ At the beginning It was extremely hard for me to use VIM. I was constantly reach
 
 But I didn’t want to give up, and it was very difficult until I installed MacVIM. I have to admit it really helped me stay in VIM and not switch to Sublime in the middle of my work. The only reason for that in my opinion was that by default MacVIM has some mouse support enabled. I always knew I can enable mouse support in my Iterm2, but I was thinking I shouldn’t. Obviously I was very wrong.
 
-With MacVIM and It’s mouse support, I learned VIM faster and I was always reminding myself to use mouse less. To help me speed things up I've been adding plugins as I find the need for them, and you can see my dot files in my [github repo](https://github.com/hosseintoussi/dotfiles).
+With MacVIM and It’s mouse support, I learned VIM faster and I was always reminding myself to use mouse less. To help myself speed things up I've been adding plugins as I find the need for them, and you can see my dot files in my [github repo](https://github.com/hosseintoussi/dotfiles).
 
 It’s been over 30 days now, and Im starting to love how easy I navigate through files and write code in VIM, plus I don't care much for mouse anymore. I definitely encourage everyone to give VIM a try, it's life changing!
