@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Move To VIM"
-date:   2016-07-07 19:47:41
+date:   2016-07-06 19:47:41
 categories: dev-env
 ---
 I was a big Sublime fan, and I still am. I think it’s a great and powerful text editor. I had used it for more than 4 years but recently I felt that I use too much mouse and I wasn't very efficient. I wanted to speed up my workflow and was hoping to do less for more. I started looking for improvements and VIM came up in every article that I read so I decided to give it a shot.

@@ -4,7 +4,7 @@
  <title>HosseinToussi</title>
  <link href="http://hosseintoussi.github.io/atom.xml" rel="self"/>
  <link href="http://hosseintoussi.github.io/"/>
- <updated>2016-07-08T01:54:42+08:00</updated>
+ <updated>2016-07-08T01:59:43+08:00</updated>
  <id>http://hosseintoussi.github.io</id>
  <author>
    <name>Hossein Toussi</name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>The Move To VIM</title>
-   <link href="http://hosseintoussi.github.io/dev-env/2016/07/08/TheMoveToVIM.html"/>
-   <updated>2016-07-08T03:47:41+08:00</updated>
-   <id>http://hosseintoussi.github.io/dev-env/2016/07/08/TheMoveToVIM</id>
+   <link href="http://hosseintoussi.github.io/dev-env/2016/07/07/TheMoveToVIM.html"/>
+   <updated>2016-07-07T03:47:41+08:00</updated>
+   <id>http://hosseintoussi.github.io/dev-env/2016/07/07/TheMoveToVIM</id>
    <content type="html">&lt;p&gt;I was a big Sublime fan, and I still am. I think it’s a great and powerful text editor. I had used it for more than 4 years but recently I felt that I use too much mouse and I wasn’t very efficient. I wanted to speed up my workflow and was hoping to do less for more. I started looking for improvements and VIM came up in every article that I read so I decided to give it a shot.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://eenube.com/images/headers/vimvssublime2.png&quot; alt=&quot;SublimeToVim&quot; title=&quot;sublime to vim&quot; /&gt;
