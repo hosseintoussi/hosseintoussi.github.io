@@ -4,24 +4,24 @@ title:  "RedDot Ruby Conf 2016"
 date:   2016-07-23 19:47:41
 categories: conf
 ---
-I recently had the chance to attend RedDot Ruby in Singapore, and I have to say it was an amazing experience in my career. I had never attended a Ruby conf before, but I watched a lot of them online. Getting to meet such great people like Matz, and Aaron Patterson in person is like a dream come true.
+I recently had a chance to attend RedDot Ruby in Singapore, and I have to say it was an amazing experience in my career. I had never attended a Ruby conf before, but I watched a lot of them online. Getting to meet such great people like Matz, and Aaron Patterson in person was like a dream come true.
 
-If you are interested in the talks given at RedDot Ruby this year, you can check out [this great gist](https://gist.github.com/cheeaun/43843c8b1c764825b9f3d63ed8f5bd78) that has the videos of all the talks .
+If you are interested in the talks given at RedDot Ruby this year, you can check out [this great gist](https://gist.github.com/cheeaun/43843c8b1c764825b9f3d63ed8f5bd78) that has the videos of all the talks.
 
-When I get a chance to talk to Matz I thanked him for Ruby and the great community. He is a very down to earth type of guy and extremely friendly. He reminded me of a saying that rubyists have: `Matz is nice so we are nice`. That was the point I realised how accurate that is.
+When I talked to Matz I thanked him for Ruby and the great community. He is a very down to earth type of guy and extremely friendly. He reminded me of a saying that rubyists have: `Matz is nice so we are nice`. That was the point I realised how accurate that is.
 
 Same goes to Aaron, very friendly and nice, plus he has stickers of his cats (haha).
 
 Since all the talks are available online I just want to briefly share about my favourite talks. I should mention that they can get a little bit technical.
 
-First up was Matz’s. Here is a short summary:
+First up was Matz’s. He talked about new things and improvements in future Ruby versions.
 
 There are different kinds of typing, for example:
 
 - Strong Dynamic (Ruby)
 - Weak Dynamic (Perl, Haskel)
-- Strong Dynamic ( Hskell )
-- Weak Dynamic ( C )
+- Strong Dynamic (Hskell)
+- Weak Dynamic (C)
 
 There’s a design policy which is duck typing and it's very important in ruby.
 

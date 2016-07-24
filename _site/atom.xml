@@ -4,7 +4,7 @@
  <title>HosseinToussi</title>
  <link href="http://hosseintoussi.github.io/atom.xml" rel="self"/>
  <link href="http://hosseintoussi.github.io/"/>
- <updated>2016-07-24T19:55:10+08:00</updated>
+ <updated>2016-07-24T20:02:43+08:00</updated>
  <id>http://hosseintoussi.github.io</id>
  <author>
    <name>Hossein Toussi</name>
@@ -17,25 +17,25 @@
    <link href="http://hosseintoussi.github.io/conf/2016/07/24/RedDotRubyConf-2016.html"/>
    <updated>2016-07-24T03:47:41+08:00</updated>
    <id>http://hosseintoussi.github.io/conf/2016/07/24/RedDotRubyConf-2016</id>
-   <content type="html">&lt;p&gt;I recently had the chance to attend RedDot Ruby in Singapore, and I have to say it was an amazing experience in my career. I had never attended a Ruby conf before, but I watched a lot of them online. Getting to meet such great people like Matz, and Aaron Patterson in person is like a dream come true.&lt;/p&gt;
+   <content type="html">&lt;p&gt;I recently had a chance to attend RedDot Ruby in Singapore, and I have to say it was an amazing experience in my career. I had never attended a Ruby conf before, but I watched a lot of them online. Getting to meet such great people like Matz, and Aaron Patterson in person was like a dream come true.&lt;/p&gt;
 
-&lt;p&gt;If you are interested in the talks given at RedDot Ruby this year, you can check out &lt;a href=&quot;https://gist.github.com/cheeaun/43843c8b1c764825b9f3d63ed8f5bd78&quot;&gt;this great gist&lt;/a&gt; that has the videos of all the talks .&lt;/p&gt;
+&lt;p&gt;If you are interested in the talks given at RedDot Ruby this year, you can check out &lt;a href=&quot;https://gist.github.com/cheeaun/43843c8b1c764825b9f3d63ed8f5bd78&quot;&gt;this great gist&lt;/a&gt; that has the videos of all the talks.&lt;/p&gt;
 
-&lt;p&gt;When I get a chance to talk to Matz I thanked him for Ruby and the great community. He is a very down to earth type of guy and extremely friendly. He reminded me of a saying that rubyists have: &lt;code&gt;Matz is nice so we are nice&lt;/code&gt;. That was the point I realised how accurate that is.&lt;/p&gt;
+&lt;p&gt;When I talked to Matz I thanked him for Ruby and the great community. He is a very down to earth type of guy and extremely friendly. He reminded me of a saying that rubyists have: &lt;code&gt;Matz is nice so we are nice&lt;/code&gt;. That was the point I realised how accurate that is.&lt;/p&gt;
 
 &lt;p&gt;Same goes to Aaron, very friendly and nice, plus he has stickers of his cats (haha).&lt;/p&gt;
 
 &lt;p&gt;Since all the talks are available online I just want to briefly share about my favourite talks. I should mention that they can get a little bit technical.&lt;/p&gt;
 
-&lt;p&gt;First up was Matz’s. Here is a short summary:&lt;/p&gt;
+&lt;p&gt;First up was Matz’s. He talked about new things and improvements in future Ruby versions.&lt;/p&gt;
 
 &lt;p&gt;There are different kinds of typing, for example:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Strong Dynamic (Ruby)&lt;/li&gt;
   &lt;li&gt;Weak Dynamic (Perl, Haskel)&lt;/li&gt;
-  &lt;li&gt;Strong Dynamic ( Hskell )&lt;/li&gt;
-  &lt;li&gt;Weak Dynamic ( C )&lt;/li&gt;
+  &lt;li&gt;Strong Dynamic (Hskell)&lt;/li&gt;
+  &lt;li&gt;Weak Dynamic (C)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;There’s a design policy which is duck typing and it’s very important in ruby.&lt;/p&gt;
