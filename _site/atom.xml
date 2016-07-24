@@ -4,13 +4,182 @@
  <title>HosseinToussi</title>
  <link href="http://hosseintoussi.github.io/atom.xml" rel="self"/>
  <link href="http://hosseintoussi.github.io/"/>
- <updated>2016-07-08T01:59:43+08:00</updated>
+ <updated>2016-07-24T19:55:10+08:00</updated>
  <id>http://hosseintoussi.github.io</id>
  <author>
    <name>Hossein Toussi</name>
    <email>saeed.toussi@yahoo.com</email>
  </author>
 
+ 
+ <entry>
+   <title>RedDot Ruby Conf 2016</title>
+   <link href="http://hosseintoussi.github.io/conf/2016/07/24/RedDotRubyConf-2016.html"/>
+   <updated>2016-07-24T03:47:41+08:00</updated>
+   <id>http://hosseintoussi.github.io/conf/2016/07/24/RedDotRubyConf-2016</id>
+   <content type="html">&lt;p&gt;I recently had the chance to attend RedDot Ruby in Singapore, and I have to say it was an amazing experience in my career. I had never attended a Ruby conf before, but I watched a lot of them online. Getting to meet such great people like Matz, and Aaron Patterson in person is like a dream come true.&lt;/p&gt;
+
+&lt;p&gt;If you are interested in the talks given at RedDot Ruby this year, you can check out &lt;a href=&quot;https://gist.github.com/cheeaun/43843c8b1c764825b9f3d63ed8f5bd78&quot;&gt;this great gist&lt;/a&gt; that has the videos of all the talks .&lt;/p&gt;
+
+&lt;p&gt;When I get a chance to talk to Matz I thanked him for Ruby and the great community. He is a very down to earth type of guy and extremely friendly. He reminded me of a saying that rubyists have: &lt;code&gt;Matz is nice so we are nice&lt;/code&gt;. That was the point I realised how accurate that is.&lt;/p&gt;
+
+&lt;p&gt;Same goes to Aaron, very friendly and nice, plus he has stickers of his cats (haha).&lt;/p&gt;
+
+&lt;p&gt;Since all the talks are available online I just want to briefly share about my favourite talks. I should mention that they can get a little bit technical.&lt;/p&gt;
+
+&lt;p&gt;First up was Matz’s. Here is a short summary:&lt;/p&gt;
+
+&lt;p&gt;There are different kinds of typing, for example:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Strong Dynamic (Ruby)&lt;/li&gt;
+  &lt;li&gt;Weak Dynamic (Perl, Haskel)&lt;/li&gt;
+  &lt;li&gt;Strong Dynamic ( Hskell )&lt;/li&gt;
+  &lt;li&gt;Weak Dynamic ( C )&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There’s a design policy which is duck typing and it’s very important in ruby.&lt;/p&gt;
+
+&lt;p&gt;In dock typing we:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Do not classify&lt;/li&gt;
+  &lt;li&gt;Do not check types&lt;/li&gt;
+  &lt;li&gt;We just ask objects to behaves&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Static Typing basically lacks flexibility. Some other programming languages offer gradual typing or optional typing, and they are fundamentally static. Ruby wants something that is similar to staic typing (powerful), but it should allow duck typing. For example, GO is a static typed language that allows duck typing. it is called structural subtyping.&lt;/p&gt;
+
+&lt;p&gt;Matz calls this soft typing for Ruby.  Soft Typing is a type system that is defined by behaviour. Behaviours are sets of methods (and argument types), thus inferred types don’t have names. However, this is still just a concept and a part of Ruby3 project.&lt;/p&gt;
+
+&lt;p&gt;Here is what Matz wants for Ruby3:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Soft typing&lt;/li&gt;
+  &lt;li&gt;3 times faster&lt;/li&gt;
+  &lt;li&gt;Real concurrency&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;He also talked about Ruby 2.4 and some of it’s changes are listed below:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FixNum / BigNum Unification&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;There will be no longer fixnum and bigness, just integers. There should not be so many compatibility issues, but if your program cares about the size of integers then you might have some issues.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Smarter Conversions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Some methods like upcase and downcase worked only for ASCII characters. With a lot of people using Unicode, Ruby now handles unicode case mappings. If you want to stick with ASCII you can do  &lt;code&gt;.upcase(:ascii) &lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;That was it for Matz.&lt;/p&gt;
+
+&lt;p&gt;I am now going to cover Aaron’s talk which I really enjoyed. It is about Ruby GC algorithms in MRI. His talk stated as usual with some jokes, and he demonstrated different types of typing with his mechanical keyboard.&lt;/p&gt;
+
+&lt;p&gt;What is GC in high level?&lt;/p&gt;
+
+&lt;p&gt;You can think of objects as a tree and GC finds nodes in the tree that aren’t referenced from the root anymore and then frees them up. It uses different algorithms to find nodes that are not referenced.&lt;/p&gt;
+
+&lt;p&gt;What types of collectors MRI has?&lt;/p&gt;
+
+&lt;p&gt;Here is a list:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mark &amp;amp; sweep&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Theres a Mark phase that starts from the root and marks all of the objects, then sweep phase frees everything that is not marked, and at the end we unmark them all.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://deborah-digges.github.io/images/gc.png&quot; alt=&quot;marksweep&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pros:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Very easy&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Cons:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Too slow&lt;/li&gt;
+  &lt;li&gt;Stops the world&lt;/li&gt;
+  &lt;li&gt;Visits all the objects everytime&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Generational&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;To improve  the speed of Mark&amp;amp;Sweep it divides the objects into old and new gens. Good thing is that this does not visit the old objects everytime and only on full GC. Theres a &lt;em&gt;remembered list&lt;/em&gt; to keep track of interesting references such as when an old gen object points to a new gen. This is to avoid bad references.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://patshaughnessy.net/assets/2013/10/30/ruby-gen5.png&quot; alt=&quot;gen&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pros:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Faster&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Cons:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Not as easy:&lt;/li&gt;
+  &lt;li&gt;Stops the world&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Incremental&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;To get around Stop the World there is Incremental GC. It uses Tri Color Marking:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;White: will be collected&lt;/li&gt;
+  &lt;li&gt;Black: No reference to white objects, but reachable from root&lt;/li&gt;
+  &lt;li&gt;Gray: Reachable from root, but not yet scanned.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://adamansky.bitbucket.org/slides/gc/img/gc-tricolor.png&quot; alt=&quot;tricolor&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The way it works is that:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;It picks an object from gray and and moves it to black.&lt;/li&gt;
+  &lt;li&gt;For each object that the object references, they get moved to black as well.&lt;/li&gt;
+  &lt;li&gt;Keep repeating this until gray is empty.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A big advantage is it can be interrupted at each step. Each step can be performed incrementally and halt time reduces. Although it has a similar problem with generational, and theres a &lt;em&gt;remembered list&lt;/em&gt; to avoid bad references.&lt;/p&gt;
+
+&lt;p&gt;In Ruby, GC:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Is not parallel&lt;/li&gt;
+  &lt;li&gt;Is not real-time&lt;/li&gt;
+  &lt;li&gt;Is not compacting&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now as for allocation we have a heap that contains all of our objects. There are big chunks of memory that are called pages and each has a linked list (each page is 16k). They have slots which contains ruby objects (each object is 40bytes). when object is garbage collected it’s taken out from the page.&lt;/p&gt;
+
+&lt;p&gt;As a problem there is poor reclamation in the process of GC. When we have a few pages and garbages get collected, objects won’t move to free up pages. We are basically left with some pages that have holes in them. This is one of the areas that Aaron is trying to improve.&lt;/p&gt;
+
+&lt;p&gt;As for the last part of the talk, here are some tools to use for inspections:&lt;/p&gt;
+
+&lt;p&gt;GC Inspection:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;GC::Profiler.enable&lt;/li&gt;
+  &lt;li&gt;GC:Profiler.report&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Heap Inspection:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ObjectSpace.dump_all&lt;/li&gt;
+  &lt;li&gt;ObjectSpace.dump&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can turn on tracing for objects. if you have problems finding where the object came from, you can use that:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;trace_object_allocations&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That’s it. I hope you enjoyed this post.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>The Move To VIM</title>
@@ -28,7 +197,7 @@ I knew VIM just enough to get around files, search for things, and save them. VI
 
 &lt;p&gt;But I didn’t want to give up, and it was very difficult until I installed MacVIM. I have to admit it really helped me stay in VIM and not switch to Sublime in the middle of my work. The only reason for that in my opinion was that by default MacVIM has some mouse support enabled. I always knew I can enable mouse support in my Iterm2, but I was thinking I shouldn’t. Obviously I was very wrong.&lt;/p&gt;
 
-&lt;p&gt;With MacVIM and It’s mouse support, I learned VIM faster and I was always reminding myself to use mouse less. To help me speed things up I’ve been adding plugins as I find the need for them, and you can see my dot files in my &lt;a href=&quot;https://github.com/hosseintoussi/dotfiles&quot;&gt;github repo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;With MacVIM and It’s mouse support, I learned VIM faster and I was always reminding myself to use mouse less. To help myself speed things up I’ve been adding plugins as I find the need for them, and you can see my dot files in my &lt;a href=&quot;https://github.com/hosseintoussi/dotfiles&quot;&gt;github repo&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;It’s been over 30 days now, and Im starting to love how easy I navigate through files and write code in VIM, plus I don’t care much for mouse anymore. I definitely encourage everyone to give VIM a try, it’s life changing!&lt;/p&gt;
 </content>
